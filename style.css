@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+input[type=text] {
+  width: 130px;
+  position: left;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 24px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width:50%;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: black;
+}
+a:hover {
+  color: hotpink;
+}
+a:link {
+  color: green;
+}
+
+
